@@ -1,0 +1,213 @@
+.error-message > ul > li {
+    font-size: 0.75rem;
+}
+
+.input.time > select {
+    width: 50px;
+}
+
+td.actions {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+td.actions .icon-link {
+    float: left;
+    font-size: small;
+}
+
+.icon-link .ui-icon {
+    display: inline-block;
+}
+
+.icon-link :last-child {
+    vertical-align: text-bottom;
+    font-weight: normal;
+}
+
+legend .icon-link .ui-icon {
+    vertical-align: super;
+}
+
+legend .icon-link {
+    font-size: 14px;
+}
+
+.add-link {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+ul li.name #name-link {
+    padding-left: 20px;
+}
+
+ul.side-nav li {
+    padding-left: 22px !important;
+}
+
+#menu-header{
+    position: absolute;
+    /*    background:rgb(255,255,255);
+        background: transparent\9;
+        background:rgba(255,255,255,0.75);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#bfFFFFFF,endColorstr=#bfFFFFFF);
+        zoom: 1;*/
+    top: 14px;
+    left: -32px;
+    height: 32px;
+    width:auto;
+    z-index: 200000;
+    -webkit-transition:left 400ms ease 100ms;
+    -moz-transition:left 400ms ease 100ms;
+    -ms-transition:left 400ms ease 100ms;
+    -o-transition:left 400ms ease 100ms;
+    transition:left 400ms ease 100ms;
+}
+
+#menu-header-button-icon{
+    width: 32px;
+    height: 32px;
+    /*background-image: url(../img/google+_negro.png);*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+}
+
+#menu-header-button-icon > div {
+    width: 66%;
+    margin: 0 auto;
+    background: #fafafa;
+    -webkit-transition:background-color 400ms ease 100ms;
+    -moz-transition:background-color 400ms ease 100ms;
+    -ms-transition:background-color 400ms ease 100ms;
+    -o-transition:background-color 400ms ease 100ms;
+    transition:background-color 400ms ease 100ms;
+}
+
+#menu-header-button-icon > .colored {
+    height: 3px;
+}
+
+#menu-header-button-icon > .empty {
+    height: 3px;
+    background: transparent;
+    -webkit-transition:background-color 400ms ease 100ms;
+    -moz-transition:background-color 400ms ease 100ms;
+    -ms-transition:background-color 400ms ease 100ms;
+    -o-transition:background-color 400ms ease 100ms;
+    transition:background-color 400ms ease 100ms;
+}
+
+#menu-header-button-icon.inverted > div {
+    background: #116d76;
+}
+
+#menu-header-button-icon.inverted > .empty {
+    height: 3px;
+    background: #fafafa;
+}
+
+#actions-sidebar {
+    overflow: hidden;
+    -webkit-transition:left 400ms ease 100ms;
+    -moz-transition:left 400ms ease 100ms;
+    -ms-transition:left 400ms ease 100ms;
+    -o-transition:left 400ms ease 100ms;
+    transition:left 400ms ease 100ms;
+}
+
+@media(max-width: 640px) {
+    .credential-link {
+        padding-left: 35px !important;
+    }
+
+    #menu-header{
+        top: 14px;
+        left: 0px;
+        -webkit-transition:left 400ms ease 100ms;
+        -moz-transition:left 400ms ease 100ms;
+        -ms-transition:left 400ms ease 100ms;
+        -o-transition:left 400ms ease 100ms;
+        transition:left 400ms ease 100ms;
+    }
+
+    #menu-header-button-icon{
+        max-width: 32px;
+    }
+
+    #actions-sidebar {
+        position: absolute;
+        top: 4px;
+        left: -800px;
+        z-index: 9999;
+    }
+
+    .side-nav {
+        padding-top: 0;
+    }
+
+    #actions-sidebar.main-menu {
+        left: 0;
+    }
+}
+
+.local-view-image-container {
+    display: inline-block;
+}
+
+.local-view-image-container > div {
+    display: table;
+}
+
+.local-view-image-container > div:last-child {
+    margin: 0 auto;
+}
+
+.filter-operator-wrapper {
+    display: inline-block;
+    width: 150px;
+}
+
+.filter-value-wrapper {
+    display: inline-block;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.crud-filter-container {
+    border: 1px lightblue solid;
+    margin-bottom: 8px;
+}
+
+.crud-filter-content {
+    padding: 8px 8px 0;
+}
+
+#clear-crud-filters {
+    float: right;
+    text-transform: uppercase;
+    box-shadow: none;
+    margin-right: 8px;
+    background: #be140b;
+}
+
+.not_mine td{
+    color: #00ff00;
+}
+
+.requestable td{
+    color: #FF8C00;
+    font-weight: bold;
+}
+
+.hidden{
+    display: none;
+}
+
+.bill_canceled{
+    text-decoration: line-through;
+}
+
+.bill_pending .amount{
+    color: #ff0000;
+}

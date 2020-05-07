@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="boom_havana.db" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="741fb9c0-923e-48a5-b3ab-77f9f1790c54">
+    <synchronize>true</synchronize>
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/webroot/db/boom_havana.db</jdbc-url>
+    <driver-properties>
+      <property name="enable_load_extension" value="true"/>
+    </driver-properties>
+    <libraries/>
+  </data-source>
+</component>
