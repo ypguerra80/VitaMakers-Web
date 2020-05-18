@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-        <?= __('VitaMakers') ?>:
+        <?= __('MyWay') ?>:
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
@@ -42,18 +42,37 @@
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
-<body style="background-color: #6c757d">
+<body class="" style="background-color: #6c757d">
+
+
 
 <div class="container">
     <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+
     <div class="row">
-        <div class="col-lg-12 col-md-12  bg-warning small small-text-center">@ 2020 by VITAMARKERS, FL (USA)</div>
+        <div class="col bg-warning  small-text-center">@ 2020 by VITAMARKERS, FL (USA)</div>
     </div>
 
     <div class="row">
-        <div class="col-lg-6 col-md-6" style="background: url('../../../webroot/img/nav.png');">
+        <div class="col-6" style="background-color: #020749;">
             <div class="row">
+                <div class="col-4"></div>
+                <div class="col-8">
+                    <img src="../../../webroot/img/logo.png" width="50%" height="50%" style="padding-top: 40px;">
+                </div>
+            </div>
 
+            <div style="padding-top: 20px;"></div>
+
+            <div class="row">
+                <div class="col-8">
+                    <p class="text-white">kjdkfg hkdhgdkjgh dkghiahdoiqyo qrqoryoqiry qoir qoyrqo iryq ofosifhsdo fdoiyfdi fy ogydo gydo igyiywr iutwirw</p>
+                </div>
+                <div class="col-4">
+                    <div style="padding-top: 20px;">
+                        <button class="btn btn-sm btn-info">START NOW</button>
+                    </div>
+                </div>
             </div>
             <div class="row align-items-end">
                 <div class="col">
@@ -91,9 +110,7 @@
                 </div>
             </div>
         </div>
-
-
-        <div class="col-lg-6 col-md-6"  style="background: url('../../../webroot/img/nav.png');">
+        <div class="col-lg-6 col-md-6"  style="background-color: #020749;">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -125,7 +142,7 @@
             <div class="card">
                 <img src="../../../webroot/img/tablets.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <a href="#" class="btn btn-primary btn-sm btn-block">TABLETS</a>
+                    <a href="" class="btn btn-primary btn-sm btn-block">TABLETS</a>
                 </div>
             </div>
         </div>
